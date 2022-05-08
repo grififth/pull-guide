@@ -1,0 +1,10 @@
+@mixin text-gradient($color1, $color2) {
+  background: -webkit-linear-gradient(left, $color1, $color2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@mixin text-shadow($color) {
+  text-shadow: 0px 0px 10px $color;
+}
