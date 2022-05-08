@@ -27,7 +27,7 @@ const LandingQuotes = () => {
       <div className="landing-quotes-quotewall">
         <div className="quote-column">
           <Quote
-            qImage="./src/images/dhruva.jpg"
+            qImage="./assets/images/dhruva.jpg"
             qAuthor="Dhruva Arun"
             qInfo="Senior Bitch Puller"
             qText="After reading through all the immaculate content that was put into this guide,
@@ -36,7 +36,7 @@ const LandingQuotes = () => {
             variant={slideFromLeft(0.2)}
           />
           <Quote
-            qImage="./src/images/shriyan.png"
+            qImage="./assets/images/shriyan.png"
             qAuthor="Shriyan Reyya"
             qInfo="Chief Executive Bitch Collector"
             qText="I used to be a bitchless non. My bitch count was lower than your mother's credit score.
@@ -48,14 +48,14 @@ const LandingQuotes = () => {
         </div>
         <div className="quote-column">
           <Quote
-            qImage="./src/images/eric.png"
+            qImage="./assets/images/eric.png"
             qAuthor="Eric Zou"
             qInfo="Pull God, 5 years experience"
             qText="I can personally say that this is the best guide I've ever read."
             variant={fadeInDown}
           />
           <Quote
-            qImage="./src/images/jason.png"
+            qImage="./assets/images/jason.png"
             qAuthor="Jason Youm"
             qInfo="Experienced Hard Puller"
             qText="Viewing this website transformed me. I've been able to pull so much better after seeing this site;
@@ -65,14 +65,14 @@ const LandingQuotes = () => {
         </div>
         <div className="quote-column">
           <Quote
-            qImage="./src/images/yina.png"
+            qImage="./assets/images/yina.png"
             qAuthor="Yina Zhou"
             qInfo="Bitch Puller"
             qText="I'm so glad I found this guide. I wasn't able to pull before but now I can pull harder than ever."
             variant={slideFromRight(0.4)}
           />
           <Quote
-            qImage="./src/images/stephen.jpg"
+            qImage="./assets/images/stephen.jpg"
             qAuthor="Stephen Zhang"
             qInfo="Bitchless, All His Life"
             qText="I don't follow the advice in this guide. Honestly, that's probably why I've never pulled anyone."

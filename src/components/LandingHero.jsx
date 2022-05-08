@@ -14,7 +14,7 @@ const LandingHero = () => {
       <motion.div className="landing-nav" variants={staggerVar(0.5)}>
         <motion.div className="landing-nav-logo" variants={staggerVar(0.2)}>
           <motion.img
-            src="./src/images/chad.jpg"
+            src="./assets/images/chad.jpg"
             alt="logo"
             variants={fadeInDown}
           />
@@ -40,7 +40,14 @@ const LandingHero = () => {
           Don't feel <b>lonely</b> and <b>bitchless</b> any more,{" "}
           <b>We got your back</b>.
         </motion.p>
-        <motion.button variants={fadeInDown}>Get Started</motion.button>
+        <motion.button
+          variants={fadeInDown}
+          onClick={() => {
+            window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+          }}
+        >
+          Get Started
+        </motion.button>
       </motion.div>
       <motion.div
         className="landing-bg"

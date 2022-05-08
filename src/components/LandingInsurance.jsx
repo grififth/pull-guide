@@ -22,7 +22,7 @@ const LandingInsurance = () => {
       <motion.img
         variants={slideFromRight(0.7)}
         whileInView="animate"
-        src="./src/images/insurance.svg"
+        src="./assets/images/insurance.svg"
         alt="insurance"
       />
     </motion.div>
